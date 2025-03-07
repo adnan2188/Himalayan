@@ -1,0 +1,1557 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Topbar & Header</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+      integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="styles.css" />
+    <script
+      src="https://kit.fontawesome.com/a076d05399.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body>
+    <header class="hl-header">
+      <div
+        class="hl-topbar bg-primary text-white px-3 d-flex justify-content-between align-items-center"
+      >
+        <div class="d-flex gap-3">
+          <span>info@himalayanleisure.com</span>
+          <span>+977 98510 99 000</span>
+        </div>
+        <div class="d-flex gap-3 top-bar-right-div">
+          <i class="fa-brands fa-whatsapp"></i>
+          <select
+            class="form-select form-select-sm bg-transparent text-white border-0 w-auto"
+          >
+            <option>USD</option>
+            <option>EUR</option>
+            <option>GBP</option>
+          </select>
+          <i class="fa-solid fa-user"></i>
+        </div>
+      </div>
+
+      <!-- Navbar -->
+      <nav class="navbar navbar-expand-lg bg-white shadow-sm py-3">
+        <div class="container">
+          <!-- Logo -->
+          <a class="navbar-brand hl-logo" href="#">
+            <img src="logo.jpg" alt="Logo" />
+          </a>
+
+          <!-- Mobile Menu Button -->
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarNav"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+
+          <!-- Navbar Links -->
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav mx-auto">
+              <li class="nav-item"><a class="nav-link" href="#">Home</a></li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Destinations</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Activities</a>
+              </li>
+              <li class="nav-item"><a class="nav-link" href="#">Support</a></li>
+              <li class="nav-item"><a class="nav-link" href="#">Blogs</a></li>
+              <li class="nav-item"><a class="nav-link" href="#">Contact</a></li>
+            </ul>
+
+            <!-- Buttons -->
+            <div class="d-flex gap-3">
+              <button class="hl-deposit-btn">enrool now</button>
+              <button class="hl-deposit-btn">
+                <i class="fa-solid fa-list"></i>
+              </button>
+            </div>
+          </div>
+        </div>
+      </nav>
+    </header>
+    <!-- Hero Section -->
+    <section
+      class="hero-section"
+      style="
+        background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTPSDsfvT1VRc8s5xCKatgcJfas8AiiABdnFg&s');
+      "
+    >
+      <div class="container hero-content">
+        <h1 class="hero-title">Next Adventure</h1>
+        <h2 class="hero-subtitle">Is Waiting</h2>
+        <p>
+          Lorem ipsum is placeholder text commonly used in the graphic, print,
+          and publishing industries for previewing layouts and visual mockups.
+        </p>
+
+        <!-- Search Box -->
+        <div class="search-box">
+          <div class="d-flex align-items-center">
+            <i class="fas fa-search ms-2 me-2 text-muted"></i>
+            <input
+              type="text"
+              class="search-input"
+              placeholder="Enter your keywords........"
+            />
+          </div>
+        </div>
+
+        <!-- Search Results -->
+        <div class="search-results">
+          <div class="trek-item">
+            <div class="trek-name">Annapurna Base camp Trek</div>
+            <div class="trek-days">10 Days</div>
+          </div>
+          <div class="trek-item">
+            <div class="trek-name">Kanchenjunga Base Camp Trekking</div>
+            <div class="trek-days">10 Days</div>
+          </div>
+          <div class="trek-item">
+            <div class="trek-name">Ghorepani Poon Hill Trekking</div>
+            <div class="trek-days">10 Days</div>
+          </div>
+          <div class="trek-item">
+            <div class="trek-name">Langtang Gosainkunda Helambu Trekking</div>
+            <div class="trek-days">10 Days</div>
+          </div>
+          <div class="trek-item">
+            <div class="trek-name">Island Peak Climbing</div>
+            <div class="trek-days">10 Days</div>
+          </div>
+        </div>
+      </div>
+      <!-- Handshake Button -->
+      <a
+        href="#"
+        class="handshake-btn text-decoration-none"
+        style="background-color: #0b6bc4"
+      >
+        <i class="fas fa-handshake"></i>
+        <span>Handshake with us for the best services!</span>
+      </a>
+
+      <!-- Video Play Button -->
+      <a href="#" class="video-play-btn">
+        <i class="fas fa-play"></i>
+      </a>
+    </section>
+
+    <!-- Second Section -->
+    <!-- WhatsApp Button -->
+    <a href="#" class="whatsapp-btn">
+      <i class="fab fa-whatsapp"></i>
+    </a>
+
+    <!-- Customization Button -->
+    <!-- <a href="#" class="customize-btn">
+      <i class="fas fa-cog"></i> Tour Customization
+    </a> -->
+
+    <div class="container-fluid" style="max-width: 1440px">
+      <!-- Destinations Intro Section -->
+      <div class="row destinations-intro mt-4">
+        <div class="col-md-3">
+          <div class="checkout-title">CHECKOUT</div>
+          <h2 class="main-title">Spectacular Destinations</h2>
+          <p class="desc-text">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+            eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
+            ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
+            aliquip ex ea commodo consequat. Duis aute irure dolor in
+            reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
+            pariatur.
+          </p>
+          <a href="#" class="view-more-btn">
+            View More <i class="fas fa-arrow-right"></i>
+          </a>
+        </div>
+        <div class="col-md-3">
+          <div class="destination-card">
+            <img
+              src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQMrl18Y-LdkTHR6W5hhM0CqZLa-7_DF0tG8wi__VYFoZSDIdJYkVnmNBxbPC9xIK6BjsA&usqp=CAU"
+              alt="Mountain Destination"
+            />
+            <div class="card-overlay">
+              <h3 class="card-title">Nepal</h3>
+              <div class="tours-badge">07 Tours</div>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-3">
+          <div class="destination-card">
+            <img
+              src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQMrl18Y-LdkTHR6W5hhM0CqZLa-7_DF0tG8wi__VYFoZSDIdJYkVnmNBxbPC9xIK6BjsA&usqp=CAU"
+              alt="Tibet Rafting"
+            />
+            <div class="card-overlay">
+              <h3 class="card-title">Tibet</h3>
+              <p class="card-desc">
+                Quam magnis accumsan leo massa, suspendisse ante dictum. Taciti
+                sed semper platea senectus posuere penatibus commodo.
+              </p>
+              <div class="tours-badge">07 Tours</div>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-3">
+          <div class="destination-card">
+            <img
+              src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQMrl18Y-LdkTHR6W5hhM0CqZLa-7_DF0tG8wi__VYFoZSDIdJYkVnmNBxbPC9xIK6BjsA&usqp=CAU"
+              alt="Bhutan Rafting"
+            />
+            <div class="card-overlay">
+              <h3 class="card-title">Bhutan</h3>
+              <div class="tours-badge">07 Tours</div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Activities Section -->
+      <div class="row py-4" style="background-color: #e7f0f9">
+        <div class="col-lg-3 col-md-6">
+          <div class="activity-card">
+            <img
+              src="https://www.himalayanleisure.com/_next/image?url=https%3A%2F%2Fmanager.himalayanleisure.com%2Fuploads%2Factivity%2Fthumbnails%2F202409201626sightseeing-thumb.jpg&w=1920&q=75"
+              alt="Trekking"
+              class="activity-img"
+            />
+            <div class="activity-content">
+              <h4 class="activity-title">Trekking</h4>
+              <div class="activity-meta">13 Tours</div>
+              <div class="activity-meta">18 Reviews</div>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-3 col-md-6">
+          <div class="activity-card">
+            <img
+              src="https://www.himalayanleisure.com/_next/image?url=https%3A%2F%2Fmanager.himalayanleisure.com%2Fuploads%2Factivity%2Fthumbnails%2F202409201626sightseeing-thumb.jpg&w=1920&q=75"
+              alt="Climbing"
+              class="activity-img"
+            />
+            <div class="activity-content">
+              <h4 class="activity-title">Climbing</h4>
+              <div class="activity-meta">13 Tours</div>
+              <div class="activity-meta">18 Reviews</div>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-3 col-md-6">
+          <div class="activity-card">
+            <img
+              src="https://www.himalayanleisure.com/_next/image?url=https%3A%2F%2Fmanager.himalayanleisure.com%2Fuploads%2Factivity%2Fthumbnails%2F202409201626sightseeing-thumb.jpg&w=1920&q=75"
+              alt="Sightseeing"
+              class="activity-img"
+            />
+            <div class="activity-content">
+              <h4 class="activity-title">Sightseeing</h4>
+              <div class="activity-meta">13 Tours</div>
+              <div class="activity-meta">18 Reviews</div>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-3 col-md-6">
+          <div class="activity-card">
+            <img
+              src="https://www.himalayanleisure.com/_next/image?url=https%3A%2F%2Fmanager.himalayanleisure.com%2Fuploads%2Factivity%2Fthumbnails%2F202409201626sightseeing-thumb.jpg&w=1920&q=75"
+              alt="Mountaineering"
+              class="activity-img"
+            />
+            <div class="activity-content">
+              <h4 class="activity-title">Mountaineering</h4>
+              <div class="activity-meta">13 Tours</div>
+              <div class="activity-meta">18 Reviews</div>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-3 col-md-6">
+          <div class="activity-card">
+            <img
+              src="https://www.himalayanleisure.com/_next/image?url=https%3A%2F%2Fmanager.himalayanleisure.com%2Fuploads%2Factivity%2Fthumbnails%2F202409201626sightseeing-thumb.jpg&w=1920&q=75"
+              alt="Jungle Safari"
+              class="activity-img"
+            />
+            <div class="activity-content">
+              <h4 class="activity-title">Jungle Safari</h4>
+              <div class="activity-meta">13 Tours</div>
+              <div class="activity-meta">18 Reviews</div>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-3 col-md-6">
+          <div class="activity-card">
+            <img
+              src="https://www.himalayanleisure.com/_next/image?url=https%3A%2F%2Fmanager.himalayanleisure.com%2Fuploads%2Factivity%2Fthumbnails%2F202409201626sightseeing-thumb.jpg&w=1920&q=75"
+              alt="Helicopter Tours"
+              class="activity-img"
+            />
+            <div class="activity-content">
+              <h4 class="activity-title">Helicopter Tours</h4>
+              <div class="activity-meta">13 Tours</div>
+              <div class="activity-meta">18 Reviews</div>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-3 col-md-6">
+          <div class="activity-card">
+            <img
+              src="https://www.himalayanleisure.com/_next/image?url=https%3A%2F%2Fmanager.himalayanleisure.com%2Fuploads%2Factivity%2Fthumbnails%2F202409201626sightseeing-thumb.jpg&w=1920&q=75"
+              alt="Jungle Safari"
+              class="activity-img"
+            />
+            <div class="activity-content">
+              <h4 class="activity-title">Jungle Safari</h4>
+              <div class="activity-meta">13 Tours</div>
+              <div class="activity-meta">18 Reviews</div>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-3 col-md-6">
+          <div class="activity-card">
+            <img
+              src="https://www.himalayanleisure.com/_next/image?url=https%3A%2F%2Fmanager.himalayanleisure.com%2Fuploads%2Factivity%2Fthumbnails%2F202409201626sightseeing-thumb.jpg&w=1920&q=75"
+              alt="Day Tours"
+              class="activity-img"
+            />
+            <div class="activity-content">
+              <h4 class="activity-title">Day Tours</h4>
+              <div class="activity-meta">13 Tours</div>
+              <div class="activity-meta">18 Reviews</div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- checkout section -->
+    <div style="max-width: 1440px" class="container-fluid py-5">
+      <div class="mb-4">
+        <div class="checkout-badge">CHECKOUT</div>
+        <h1 class="mt-3">Spectacular Destinations</h1>
+        <p class="text-muted">
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+          eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad
+          minim veniam, quis nostrud exercitation ullamco laboris nisi ut
+          aliquip ex ea commodo consequat. Duis aute irure dolor in
+          reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
+          pariatur.
+        </p>
+      </div>
+
+      <div class="row">
+        <!-- Card 1 -->
+        <div class="col-lg-4 col-md-6">
+          <div class="card">
+            <div class="card-img-container">
+              <img
+                src="https://www.himalayanleisure.com/_next/image?url=https%3A%2F%2Fmanager.himalayanleisure.com%2Fuploads%2Factivity%2Fthumbnails%2F202409201626sightseeing-thumb.jpg&w=1920&q=75"
+                alt="Mountain landscape with lake"
+              />
+              <div class="card-img-overlay">
+                <div class="badge-container">
+                  <!-- No badges for first card -->
+                </div>
+                <div class="copy-btn">
+                  <i class="fas fa-copy text-white"></i>
+                </div>
+              </div>
+              <div class="p-3 d-flex hover-btns">
+                <a href="#" class="action-btn primary"
+                  >Book Now <i class="fas fa-arrow-right"></i
+                ></a>
+                <a href="#" class="action-btn secondary"
+                  >Quick Inquiry <i class="fas fa-arrow-right"></i
+                ></a>
+              </div>
+            </div>
+            <div class="card-body p-3" style="padding-bottom: 0px !important">
+              <h5 class="card-title">
+                Island Peak Climbing
+                <span class="text-muted" style="font-size: 14px">18 Days</span>
+              </h5>
+              <div class="rating">
+                <i class="fas fa-star filled"></i>
+                <i class="fas fa-star filled"></i>
+                <i class="fas fa-star filled"></i>
+                <i class="fas fa-star filled"></i>
+                <i class="far fa-star unfilled"></i>
+                <span class="text-muted ms-2">17 Reviews</span>
+              </div>
+              <div class="details-grid">
+                <div class="detail-item">
+                  <div class="icon-circle">
+                    <i class="fas fa-globe"></i>
+                  </div>
+                  <div class="detail-item-title">DESTINATION</div>
+                  <div class="detail-item-value">Multicountry</div>
+                </div>
+                <div class="detail-item">
+                  <div class="icon-circle">
+                    <i class="fas fa-mountain"></i>
+                  </div>
+                  <div class="detail-item-title">ACTIVITY</div>
+                  <div class="detail-item-value">Mountaineering</div>
+                </div>
+                <div class="detail-item">
+                  <div class="icon-circle">
+                    <i class="fas fa-chart-line"></i>
+                  </div>
+                  <div class="detail-item-title">DIFFICULTY</div>
+                  <div class="detail-item-value">Moderate</div>
+                </div>
+              </div>
+            </div>
+            <div class="price-container">
+              <div class="price">
+                <div class="price-label">From USD</div>
+                <div class="price-value">
+                  <span class="price-old">1900</span>
+                  1700 <span>/ per pax</span>
+                </div>
+              </div>
+              <div class="view-more-div-active">
+                <a href="#" class="view-more orange">
+                  View More <i class="fas fa-arrow-right"></i>
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Card 2 -->
+        <div class="col-lg-4 col-md-6">
+          <div class="card">
+            <div class="card-img-container">
+              <img
+                src="https://www.himalayanleisure.com/_next/image?url=https%3A%2F%2Fmanager.himalayanleisure.com%2Fuploads%2Factivity%2Fthumbnails%2F202409201626sightseeing-thumb.jpg&w=1920&q=75"
+                alt="Mountain landscape with lake"
+              />
+              <div class="card-img-overlay">
+                <div class="badge-container">
+                  <!-- No badges for first card -->
+                </div>
+                <div class="copy-btn">
+                  <i class="fas fa-copy text-white"></i>
+                </div>
+              </div>
+            </div>
+            <div class="card-body p-3" style="padding-bottom: 0px !important">
+              <h5 class="card-title">
+                Island Peak Climbing
+                <span class="text-muted" style="font-size: 14px">18 Days</span>
+              </h5>
+              <div class="rating">
+                <i class="fas fa-star filled"></i>
+                <i class="fas fa-star filled"></i>
+                <i class="fas fa-star filled"></i>
+                <i class="fas fa-star filled"></i>
+                <i class="far fa-star unfilled"></i>
+                <span class="text-muted ms-2">17 Reviews</span>
+              </div>
+              <div class="details-grid">
+                <div class="detail-item">
+                  <div class="icon-circle">
+                    <i class="fas fa-globe"></i>
+                  </div>
+                  <div class="detail-item-title">DESTINATION</div>
+                  <div class="detail-item-value">Multicountry</div>
+                </div>
+                <div class="detail-item">
+                  <div class="icon-circle">
+                    <i class="fas fa-mountain"></i>
+                  </div>
+                  <div class="detail-item-title">ACTIVITY</div>
+                  <div class="detail-item-value">Mountaineering</div>
+                </div>
+                <div class="detail-item">
+                  <div class="icon-circle">
+                    <i class="fas fa-chart-line"></i>
+                  </div>
+                  <div class="detail-item-title">DIFFICULTY</div>
+                  <div class="detail-item-value">Moderate</div>
+                </div>
+              </div>
+            </div>
+            <div class="price-container">
+              <div class="price">
+                <div class="price-label">From USD</div>
+                <div class="price-value">
+                  <span class="price-old">1900</span>
+                  1700 <span>/ per pax</span>
+                </div>
+              </div>
+              <div class="view-more-div">
+                <a href="#" class="view-more orange">
+                  View More <i class="fas fa-arrow-right"></i>
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Card 3 -->
+        <div class="col-lg-4 col-md-6">
+          <div class="card">
+            <div class="card-img-container">
+              <img
+                src="https://www.himalayanleisure.com/_next/image?url=https%3A%2F%2Fmanager.himalayanleisure.com%2Fuploads%2Factivity%2Fthumbnails%2F202409201626sightseeing-thumb.jpg&w=1920&q=75"
+                alt="Mountain landscape with lake"
+              />
+              <div class="card-img-overlay">
+                <div class="badge-container">
+                  <!-- No badges for first card -->
+                </div>
+                <div class="copy-btn">
+                  <i class="fas fa-copy text-white"></i>
+                </div>
+              </div>
+            </div>
+            <div class="card-body p-3" style="padding-bottom: 0px !important">
+              <h5 class="card-title">
+                Island Peak Climbing
+                <span class="text-muted" style="font-size: 14px">18 Days</span>
+              </h5>
+              <div class="rating">
+                <i class="fas fa-star filled"></i>
+                <i class="fas fa-star filled"></i>
+                <i class="fas fa-star filled"></i>
+                <i class="fas fa-star filled"></i>
+                <i class="far fa-star unfilled"></i>
+                <span class="text-muted ms-2">17 Reviews</span>
+              </div>
+              <div class="details-grid">
+                <div class="detail-item">
+                  <div class="icon-circle">
+                    <i class="fas fa-globe"></i>
+                  </div>
+                  <div class="detail-item-title">DESTINATION</div>
+                  <div class="detail-item-value">Multicountry</div>
+                </div>
+                <div class="detail-item">
+                  <div class="icon-circle">
+                    <i class="fas fa-mountain"></i>
+                  </div>
+                  <div class="detail-item-title">ACTIVITY</div>
+                  <div class="detail-item-value">Mountaineering</div>
+                </div>
+                <div class="detail-item">
+                  <div class="icon-circle">
+                    <i class="fas fa-chart-line"></i>
+                  </div>
+                  <div class="detail-item-title">DIFFICULTY</div>
+                  <div class="detail-item-value">Moderate</div>
+                </div>
+              </div>
+            </div>
+            <div class="price-container">
+              <div class="price">
+                <div class="price-label">From USD</div>
+                <div class="price-value">
+                  <span class="price-old">1900</span>
+                  1700 <span>/ per pax</span>
+                </div>
+              </div>
+              <div class="view-more-div">
+                <a href="#" class="view-more orange">
+                  View More <i class="fas fa-arrow-right"></i>
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- Card 4 -->
+        <div class="col-lg-4 col-md-6">
+          <div class="card">
+            <div class="card-img-container">
+              <img
+                src="https://www.himalayanleisure.com/_next/image?url=https%3A%2F%2Fmanager.himalayanleisure.com%2Fuploads%2Factivity%2Fthumbnails%2F202409201626sightseeing-thumb.jpg&w=1920&q=75"
+                alt="Mountain landscape with lake"
+              />
+              <div class="card-img-overlay">
+                <div class="badge-container">
+                  <!-- No badges for first card -->
+                </div>
+                <div class="copy-btn">
+                  <i class="fas fa-copy text-white"></i>
+                </div>
+              </div>
+            </div>
+            <div class="card-body p-3" style="padding-bottom: 0px !important">
+              <h5 class="card-title">
+                Island Peak Climbing
+                <span class="text-muted" style="font-size: 14px">18 Days</span>
+              </h5>
+              <div class="rating">
+                <i class="fas fa-star filled"></i>
+                <i class="fas fa-star filled"></i>
+                <i class="fas fa-star filled"></i>
+                <i class="fas fa-star filled"></i>
+                <i class="far fa-star unfilled"></i>
+                <span class="text-muted ms-2">17 Reviews</span>
+              </div>
+              <div class="details-grid">
+                <div class="detail-item">
+                  <div class="icon-circle">
+                    <i class="fas fa-globe"></i>
+                  </div>
+                  <div class="detail-item-title">DESTINATION</div>
+                  <div class="detail-item-value">Multicountry</div>
+                </div>
+                <div class="detail-item">
+                  <div class="icon-circle">
+                    <i class="fas fa-mountain"></i>
+                  </div>
+                  <div class="detail-item-title">ACTIVITY</div>
+                  <div class="detail-item-value">Mountaineering</div>
+                </div>
+                <div class="detail-item">
+                  <div class="icon-circle">
+                    <i class="fas fa-chart-line"></i>
+                  </div>
+                  <div class="detail-item-title">DIFFICULTY</div>
+                  <div class="detail-item-value">Moderate</div>
+                </div>
+              </div>
+            </div>
+            <div class="price-container">
+              <div class="price">
+                <div class="price-label">From USD</div>
+                <div class="price-value">
+                  <span class="price-old">1900</span>
+                  1700 <span>/ per pax</span>
+                </div>
+              </div>
+              <div class="view-more-div">
+                <a href="#" class="view-more orange">
+                  View More <i class="fas fa-arrow-right"></i>
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- Card 5 -->
+        <div class="col-lg-4 col-md-6">
+          <div class="card">
+            <div class="card-img-container">
+              <img
+                src="https://www.himalayanleisure.com/_next/image?url=https%3A%2F%2Fmanager.himalayanleisure.com%2Fuploads%2Factivity%2Fthumbnails%2F202409201626sightseeing-thumb.jpg&w=1920&q=75"
+                alt="Mountain landscape with lake"
+              />
+              <div class="card-img-overlay">
+                <div class="badge-container">
+                  <!-- No badges for first card -->
+                </div>
+                <div class="copy-btn">
+                  <i class="fas fa-copy text-white"></i>
+                </div>
+              </div>
+            </div>
+            <div class="card-body p-3" style="padding-bottom: 0px !important">
+              <h5 class="card-title">
+                Island Peak Climbing
+                <span class="text-muted" style="font-size: 14px">18 Days</span>
+              </h5>
+              <div class="rating">
+                <i class="fas fa-star filled"></i>
+                <i class="fas fa-star filled"></i>
+                <i class="fas fa-star filled"></i>
+                <i class="fas fa-star filled"></i>
+                <i class="far fa-star unfilled"></i>
+                <span class="text-muted ms-2">17 Reviews</span>
+              </div>
+              <div class="details-grid">
+                <div class="detail-item">
+                  <div class="icon-circle">
+                    <i class="fas fa-globe"></i>
+                  </div>
+                  <div class="detail-item-title">DESTINATION</div>
+                  <div class="detail-item-value">Multicountry</div>
+                </div>
+                <div class="detail-item">
+                  <div class="icon-circle">
+                    <i class="fas fa-mountain"></i>
+                  </div>
+                  <div class="detail-item-title">ACTIVITY</div>
+                  <div class="detail-item-value">Mountaineering</div>
+                </div>
+                <div class="detail-item">
+                  <div class="icon-circle">
+                    <i class="fas fa-chart-line"></i>
+                  </div>
+                  <div class="detail-item-title">DIFFICULTY</div>
+                  <div class="detail-item-value">Moderate</div>
+                </div>
+              </div>
+            </div>
+            <div class="price-container">
+              <div class="price">
+                <div class="price-label">From USD</div>
+                <div class="price-value">
+                  <span class="price-old">1900</span>
+                  1700 <span>/ per pax</span>
+                </div>
+              </div>
+              <div class="view-more-div">
+                <a href="#" class="view-more orange">
+                  View More <i class="fas fa-arrow-right"></i>
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- Card 6 -->
+        <div class="col-lg-4 col-md-6">
+          <div class="card">
+            <div class="card-img-container">
+              <img
+                src="https://www.himalayanleisure.com/_next/image?url=https%3A%2F%2Fmanager.himalayanleisure.com%2Fuploads%2Factivity%2Fthumbnails%2F202409201626sightseeing-thumb.jpg&w=1920&q=75"
+                alt="Mountain landscape with lake"
+              />
+              <div class="card-img-overlay">
+                <div class="badge-container">
+                  <!-- No badges for first card -->
+                </div>
+                <div class="copy-btn">
+                  <i class="fas fa-copy text-white"></i>
+                </div>
+              </div>
+            </div>
+            <div class="card-body p-3" style="padding-bottom: 0px !important">
+              <h5 class="card-title">
+                Island Peak Climbing
+                <span class="text-muted" style="font-size: 14px">18 Days</span>
+              </h5>
+              <div class="rating">
+                <i class="fas fa-star filled"></i>
+                <i class="fas fa-star filled"></i>
+                <i class="fas fa-star filled"></i>
+                <i class="fas fa-star filled"></i>
+                <i class="far fa-star unfilled"></i>
+                <span class="text-muted ms-2">17 Reviews</span>
+              </div>
+              <div class="details-grid">
+                <div class="detail-item">
+                  <div class="icon-circle">
+                    <i class="fas fa-globe"></i>
+                  </div>
+                  <div class="detail-item-title">DESTINATION</div>
+                  <div class="detail-item-value">Multicountry</div>
+                </div>
+                <div class="detail-item">
+                  <div class="icon-circle">
+                    <i class="fas fa-mountain"></i>
+                  </div>
+                  <div class="detail-item-title">ACTIVITY</div>
+                  <div class="detail-item-value">Mountaineering</div>
+                </div>
+                <div class="detail-item">
+                  <div class="icon-circle">
+                    <i class="fas fa-chart-line"></i>
+                  </div>
+                  <div class="detail-item-title">DIFFICULTY</div>
+                  <div class="detail-item-value">Moderate</div>
+                </div>
+              </div>
+            </div>
+            <div class="price-container">
+              <div class="price">
+                <div class="price-label">From USD</div>
+                <div class="price-value">
+                  <span class="price-old">1900</span>
+                  1700 <span>/ per pax</span>
+                </div>
+              </div>
+              <div class="view-more-div">
+                <a href="#" class="view-more orange">
+                  View More <i class="fas fa-arrow-right"></i>
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- spectacular destinations -->
+    <div style="max-width: 1440px" class="container-fluid py-5">
+      <div class="row mb-4">
+        <div class="col-md-6">
+          <div class="checkout-badge mb-2">CHECKOUT</div>
+          <h2 class="section-title">Spectacular Destinations</h2>
+          <div class="mb-4">
+            <p>
+              Gravida placerat faucibus hac natoque at ullamcorper. Ac proin
+              ultrices risus tellus rhoncus tellus risus. Vel non proin lectus
+              a; nulla per blandit. Integer habitant vitae enim at aliquet.
+              Himenaeos class iaculis lectus nostra interdum feugiat id
+              elementum. Scelerisque aenean egestas porta sapien, nullam laoreet
+              eleifend. Sociosqu in fames fames in efficitur ornare morti,
+              nostra eleifend.
+            </p>
+
+            <p>
+              Amet arcu laoreet a himenaeos blandit senectus platea. Hendrerit
+              taciti scelerisque nunc metus mollis. Porttitor consequat justo
+              enim litora blandit. Convallis elementum phasellus dignissim
+              suscipit phasellus massa. Duis sociosqu magna eros elementum
+              fermentum et. Suscipit curabitur accumsan dictum torquent litora;
+              dui turpis senectus. Fermentum habitasse curae vestibulum,
+              consequat ultrices pharetra efficitur ex dui. Nostra volutpat diam
+              tacinga per cubilia feugiat. Vitae condimentum arcu est sed
+              convallis ad scelerisque.
+            </p>
+
+            <p>
+              Mollis potenti convallis et volutpat; ullamcorper metus dictum
+              inceptos. Inceptos feugiat turpis est elit per nam. Sit quam
+              facilisi penatibus diam feugiat placerat neque. Vivamus nec
+              lacinia luctus nam sed etiam. Amet ex arcu et fermentum eu id
+              rhoncus. Pharetra dis ornare rhoncus, auctor nascetur habitasse.
+              Sapien efficitur dapibus eget, mollis varius locus cursus. Rhoncus
+              primis suspendisse dictum varius cursus consequat fringilla.
+              Senectus sit urna ad hendrerit posuere feugiat; fames turpis
+              torquent.
+            </p>
+          </div>
+          <a href="#" class="view-more-btn">
+            View More <i class="fas fa-arrow-right"></i>
+          </a>
+
+          <div class="mt-5">
+            <h4 class="affiliation-title">We are affiliated with</h4>
+            <div class="affiliation-logos">
+              <div class="affiliation-logo">
+                <img
+                  src="https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcTUXzM-V-itI-WTm5hkkv7Mbcc896ahUJ7yck2MRf1oxaQEXrGe"
+                  alt="Affiliation Logo 1"
+                />
+              </div>
+              <div class="affiliation-logo">
+                <img
+                  src="https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcTUXzM-V-itI-WTm5hkkv7Mbcc896ahUJ7yck2MRf1oxaQEXrGe"
+                  alt="Affiliation Logo 2"
+                />
+              </div>
+              <div class="affiliation-logo">
+                <img
+                  src="https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcTUXzM-V-itI-WTm5hkkv7Mbcc896ahUJ7yck2MRf1oxaQEXrGe"
+                  alt="Affiliation Logo 3"
+                />
+              </div>
+              <div class="affiliation-logo">
+                <img
+                  src="https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcTUXzM-V-itI-WTm5hkkv7Mbcc896ahUJ7yck2MRf1oxaQEXrGe"
+                  alt="Affiliation Logo 4"
+                />
+              </div>
+              <div class="affiliation-logo">
+                <img
+                  src="https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcTUXzM-V-itI-WTm5hkkv7Mbcc896ahUJ7yck2MRf1oxaQEXrGe"
+                  alt="Affiliation Logo 5"
+                />
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-md-6">
+          <div class="row g-4">
+            <!-- Award Card 1 -->
+            <div class="col-md-6">
+              <div class="award-card">
+                <div class="award-icon">
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    viewBox="0 0 24 24"
+                    fill="none"
+                    stroke="#0066cc"
+                    stroke-width="1.5"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                  >
+                    <circle cx="12" cy="8" r="7"></circle>
+                    <polyline
+                      points="8.21 13.89 7 23 12 20 17 23 15.79 13.88"
+                    ></polyline>
+                  </svg>
+                </div>
+                <h3 class="award-title">Award Winning</h3>
+                <p class="award-text">
+                  We are awarded by various prestigious organizations from
+                  different parts of the world. Travelling with us means, you
+                  are traveling with the best. Himalayan Leisure is committed to
+                  provide you the best experience in Nepal. Come and join our
+                  team.
+                </p>
+              </div>
+            </div>
+
+            <!-- Award Card 2 -->
+            <div class="col-md-6">
+              <div class="award-card">
+                <div class="award-icon">
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    viewBox="0 0 24 24"
+                    fill="none"
+                    stroke="#0066cc"
+                    stroke-width="1.5"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                  >
+                    <path
+                      d="M21 12a9 9 0 0 1-9 9m9-9a9 9 0 0 0-9-9m9 9H3m9 9a9 9 0 0 1-9-9m9 9c1.657 0 3-4.03 3-9s-1.343-9-3-9m0 18c-1.657 0-3-4.03-3-9s1.343-9 3-9"
+                    ></path>
+                  </svg>
+                </div>
+                <h3 class="award-title">Award Winning</h3>
+                <p class="award-text">
+                  We are awarded by various prestigious organizations from
+                  different parts of the world. Travelling with us means, you
+                  are traveling with the best. Himalayan Leisure is committed to
+                  provide you the best experience in Nepal. Come and join our
+                  team.
+                </p>
+              </div>
+            </div>
+
+            <!-- Award Card 3 -->
+            <div class="col-md-6">
+              <div class="award-card">
+                <div class="award-icon">
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    viewBox="0 0 24 24"
+                    fill="none"
+                    stroke="#0066cc"
+                    stroke-width="1.5"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                  >
+                    <path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"></path>
+                    <circle cx="9" cy="7" r="4"></circle>
+                    <path d="M23 21v-2a4 4 0 0 0-3-3.87"></path>
+                    <path d="M16 3.13a4 4 0 0 1 0 7.75"></path>
+                  </svg>
+                </div>
+                <h3 class="award-title">Award Winning</h3>
+                <p class="award-text">
+                  We are awarded by various prestigious organizations from
+                  different parts of the world. Travelling with us means, you
+                  are traveling with the best. Himalayan Leisure is committed to
+                  provide you the best experience in Nepal. Come and join our
+                  team.
+                </p>
+              </div>
+            </div>
+
+            <!-- Award Card 4 -->
+            <div class="col-md-6">
+              <div class="award-card">
+                <div class="award-icon">
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    viewBox="0 0 24 24"
+                    fill="none"
+                    stroke="#0066cc"
+                    stroke-width="1.5"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                  >
+                    <path d="M12 2a10 10 0 1 0 10 10H12V2z"></path>
+                    <path d="M12 2a10 10 0 0 1 10 10h-10V2z"></path>
+                    <path d="M12 12l9.3 2.5"></path>
+                    <path d="M12 12l-9.3 2.5"></path>
+                    <path d="M12 12l2.5 9.3"></path>
+                    <path d="M12 12l2.5-9.3"></path>
+                    <path d="M12 12l-2.5 9.3"></path>
+                    <path d="M12 12l-2.5-9.3"></path>
+                  </svg>
+                </div>
+                <h3 class="award-title">Award Winning</h3>
+                <p class="award-text">
+                  We are awarded by various prestigious organizations from
+                  different parts of the world. Travelling with us means, you
+                  are traveling with the best. Himalayan Leisure is committed to
+                  provide you the best experience in Nepal. Come and join our
+                  team.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Reviews section -->
+
+    <!-- Top Header -->
+
+    <div style="max-width: 1440px" class="container-fluid py-4">
+      <div class="row">
+        <!-- Left Column - Image Carousel Cards -->
+        <div class="col-md-6">
+          <div class="row">
+            <div class="col-12 reviews-header">
+              <div class="container">
+                <div class="row">
+                  <div class="col-12">
+                    <h1 class="reviews-title">REVIEWS</h1>
+                    <p class="reviews-subtitle">
+                      An exhilarating adventure with stunning landscapes and a
+                      well-organized team. The guides were knowledgeable and
+                      supportive, making this a once-in-a-lifetime experience.
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-6 mt-4">
+              <div class="card position-relative review-card-wrap">
+                <!-- <img
+                  src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQMrl18Y-LdkTHR6W5hhM0CqZLa-7_DF0tG8wi__VYFoZSDIdJYkVnmNBxbPC9xIK6BjsA&usqp=CAU"
+                  alt="Himalayan mountains"
+                  class="card-img review-image"
+                /> -->
+                <div class="play-button">
+                  <i class="fas fa-play play-icon"></i>
+                </div>
+                <div class="review-card-left">
+                  <div class="star-rating mb-2">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star star-empty"></i>
+                  </div>
+                  <p class="mb-0">My best experience in Nepal</p>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-6 mt-4">
+              <div class="card position-relative review-card-wrap">
+                <div class="play-button">
+                  <i class="fas fa-play play-icon"></i>
+                </div>
+                <div class="review-card-left">
+                  <div class="star-rating mb-2">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                  </div>
+                  <p class="mb-0">My best experience in Nepal</p>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Pagination and Platform Logos -->
+          <div class="pagination-controls mt-4">
+            <button class="control-button">
+              <i class="fas fa-chevron-left"></i>
+            </button>
+            <button class="control-button">
+              <i class="fas fa-chevron-right"></i>
+            </button>
+            <button class="more-reviews-button">
+              More Reviews <i class="fas fa-arrow-right ms-2"></i>
+            </button>
+          </div>
+
+          <div class="review-platforms">
+            <img
+              src="data:image/png;base64,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"
+              alt="Bookmundi"
+              class="platform-logo"
+            />
+            <img
+              src="data:image/png;base64,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"
+              alt="Google"
+              class="platform-logo"
+            />
+            <img
+              src="data:image/png;base64,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"
+              alt="TripAdvisor"
+              class="platform-logo"
+            />
+          </div>
+        </div>
+
+        <!-- Right Column - Individual Reviews -->
+        <div class="col-md-6">
+          <!-- Review 1 -->
+          <div class="card mb-4">
+            <div class="card-body p-3">
+              <div class="row">
+                <div class="col-md-2 col-sm-3">
+                  <img
+                    src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTLA994hpL3PMmq0scCuWOu0LGsjef49dyXVg&s"
+                    alt="User Profile"
+                    class="user-image"
+                  />
+                </div>
+                <div class="col-md-10 col-sm-9">
+                  <div class="d-flex justify-content-between align-items-start">
+                    <h5 class="card-title mb-1">
+                      <span class="quote-icon">"</span>Lal Bahadur is the Best
+                      Guide Ever for the Himalayas........
+                    </h5>
+                    <div class="star-rating">
+                      <i class="fas fa-star"></i>
+                      <i class="fas fa-star"></i>
+                      <i class="fas fa-star"></i>
+                      <i class="fas fa-star"></i>
+                      <i class="fas fa-star star-empty"></i>
+                    </div>
+                  </div>
+                  <p class="card-text mt-2">
+                    When I meet my guide Lal Gurung and then my porter Buddha
+                    Tamang they give me some advice on what to do to
+                    successfully arrive to the EBC. I was a bit afraid because a
+                    recent back injury but following their advice it went
+                    perfect. We had an incredible time in Nepal during the trek.
+                  </p>
+                  <div class="d-flex justify-content-between mt-2">
+                    <span class="text-warning fw-bold">Anonymous User</span>
+                    <div class="text-muted small">
+                      <span>17 May, 2024</span>
+                      <span class="ms-3">TripAdvisor</span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Review 2 -->
+          <div class="card mb-4">
+            <div class="card-body p-3">
+              <div class="row">
+                <div class="col-md-2 col-sm-3">
+                  <img
+                    src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTLA994hpL3PMmq0scCuWOu0LGsjef49dyXVg&s"
+                    alt="Mountain view"
+                    class="user-image"
+                  />
+                </div>
+                <div class="col-md-10 col-sm-9">
+                  <div class="d-flex justify-content-between align-items-start">
+                    <h5 class="card-title mb-1">
+                      <span class="quote-icon">"</span>My first adventure in the
+                      Himalayas was amazing
+                    </h5>
+                    <div class="star-rating">
+                      <i class="fas fa-star"></i>
+                      <i class="fas fa-star"></i>
+                      <i class="fas fa-star"></i>
+                      <i class="fas fa-star"></i>
+                      <i class="fas fa-star star-empty"></i>
+                    </div>
+                  </div>
+                  <p class="card-text mt-2">
+                    When I meet my guide Lal Gurung and then my porter Buddha
+                    Tamang they give me some advice on what to do to
+                    successfully arrive to the EBC. I was a bit afraid because a
+                    recent back injury but following their advice it went
+                    perfect. We had an incredible time in Nepal during the
+                    trek..........
+                  </p>
+                  <div class="d-flex justify-content-between mt-2">
+                    <span class="text-warning fw-bold">Fiona Roca</span>
+                    <div class="text-muted small">
+                      <span>17 May, 2024</span>
+                      <span class="ms-3">TripAdvisor</span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Review 3 -->
+          <div class="card mb-4">
+            <div class="card-body p-3">
+              <div class="row">
+                <div class="col-md-2 col-sm-3">
+                  <img
+                    src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTLA994hpL3PMmq0scCuWOu0LGsjef49dyXVg&s"
+                    alt="Trekker on path"
+                    class="user-image"
+                  />
+                </div>
+                <div class="col-md-10 col-sm-9">
+                  <div class="d-flex justify-content-between align-items-start">
+                    <h5 class="card-title mb-1">
+                      <span class="quote-icon">"</span>Lal Bahadur is the Best
+                      Guide Ever for the Himalayas........
+                    </h5>
+                    <div class="star-rating">
+                      <i class="fas fa-star"></i>
+                      <i class="fas fa-star"></i>
+                      <i class="fas fa-star"></i>
+                      <i class="fas fa-star"></i>
+                      <i class="fas fa-star star-empty"></i>
+                    </div>
+                  </div>
+                  <p class="card-text mt-2">
+                    When I meet my guide Lal Gurung and then my porter Buddha
+                    Tamang they give me some advice on what to do to
+                    successfully arrive to the EBC. I was a bit afraid because a
+                    recent back injury but following their advice it went
+                    perfect. We had an incredible time in Nepal during the trek.
+                  </p>
+                  <div class="d-flex justify-content-between mt-2">
+                    <span class="text-warning fw-bold">Adam Martin</span>
+                    <div class="text-muted small">
+                      <span>17 May, 2024</span>
+                      <span class="ms-3">TripAdvisor</span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Review 4 -->
+          <div class="card mb-4">
+            <div class="card-body p-3">
+              <div class="row">
+                <div class="col-md-2 col-sm-3">
+                  <img
+                    src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTLA994hpL3PMmq0scCuWOu0LGsjef49dyXVg&s"
+                    alt="Mountain peak"
+                    class="user-image"
+                  />
+                </div>
+                <div class="col-md-10 col-sm-9">
+                  <div class="d-flex justify-content-between align-items-start">
+                    <h5 class="card-title mb-1">
+                      <span class="quote-icon">"</span>Lal Bahadur is the Best
+                      Guide Ever for the Himalayas........
+                    </h5>
+                    <div class="star-rating">
+                      <i class="fas fa-star"></i>
+                      <i class="fas fa-star"></i>
+                      <i class="fas fa-star"></i>
+                      <i class="fas fa-star"></i>
+                      <i class="fas fa-star star-empty"></i>
+                    </div>
+                  </div>
+                  <p class="card-text mt-2">
+                    When I meet my guide Lal Gurung and then my porter Buddha
+                    Tamang they give me some advice on what to do to
+                    successfully arrive to the EBC. I was a bit afraid because a
+                    recent back injury but following their advice it went
+                    perfect. We had an incredible time in Nepal during the
+                    trek..........
+                  </p>
+                  <div class="d-flex justify-content-between mt-2">
+                    <span class="text-warning fw-bold">Upendra Duwadi</span>
+                    <div class="text-muted small">
+                      <span>17 May, 2024</span>
+                      <span class="ms-3">TripAdvisor</span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- secondLast section  -->
+    <div class="awards-container" style="max-width: 1440px">
+      <h2 class="awards-header">SERVICE EXCELLENCE</h2>
+      <h3 class="awards-subheader">Recommended by Thousands of Travelers</h3>
+      <p class="awards-description">
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
+        tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim
+        veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
+        commodo consequat. Duis aute irure dolor in reprehenderit in voluptate
+        velit esse cillum dolore eu fugiat nulla pariatur.
+      </p>
+
+      <div class="awards-carousel">
+        <div class="awards-slide-container">
+          <div class="awards-item">
+            <img
+              src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT7mOP67BxxD7MIfBQWnA3vRa8K_krLZ_iS4c0PZDV5uqiE5vdNXfOSxvgZKtyf3WEHUhw&usqp=CAU"
+              alt="Trophy Award"
+            />
+          </div>
+          <div class="awards-item">
+            <img
+              src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT7mOP67BxxD7MIfBQWnA3vRa8K_krLZ_iS4c0PZDV5uqiE5vdNXfOSxvgZKtyf3WEHUhw&usqp=CAU"
+              alt="Film Festival Award"
+            />
+          </div>
+          <div class="awards-item">
+            <img
+              src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT7mOP67BxxD7MIfBQWnA3vRa8K_krLZ_iS4c0PZDV5uqiE5vdNXfOSxvgZKtyf3WEHUhw&usqp=CAU"
+              alt="Tripadvisor Travelers' Choice Award"
+            />
+          </div>
+          <div class="awards-item">
+            <img
+              src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT7mOP67BxxD7MIfBQWnA3vRa8K_krLZ_iS4c0PZDV5uqiE5vdNXfOSxvgZKtyf3WEHUhw&usqp=CAU"
+              alt="Technology Intelligence Award"
+            />
+          </div>
+          <div class="awards-item">
+            <img
+              src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT7mOP67BxxD7MIfBQWnA3vRa8K_krLZ_iS4c0PZDV5uqiE5vdNXfOSxvgZKtyf3WEHUhw&usqp=CAU"
+              alt="Most Improved Destination Award"
+            />
+          </div>
+          <div class="awards-item">
+            <img
+              src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT7mOP67BxxD7MIfBQWnA3vRa8K_krLZ_iS4c0PZDV5uqiE5vdNXfOSxvgZKtyf3WEHUhw&usqp=CAU"
+              alt="Oracle Excellence Award"
+            />
+          </div>
+        </div>
+        <div class="awards-nav-btn awards-prev-btn">&#10094;</div>
+        <div class="awards-nav-btn awards-next-btn">&#10095;</div>
+      </div>
+    </div>
+    <!-- Footer -->
+    <div class="hl-footer-wrapper">
+      <div class="hl-container">
+        <div class="hl-top-notification">
+          <div class="hl-notification-icon">~</div>
+          <div class="hl-notification-text">
+            We would like to be in touch. Let us know your doubts or queries
+            24/7
+          </div>
+          <div class="hl-arrow-icon">→</div>
+        </div>
+
+        <div class="hl-footer-content">
+          <div class="hl-company-info">
+            <img
+              src="/logo-removebg-preview.png"
+              alt="Himalayan Leisure Logo"
+              class="hl-company-logo"
+            />
+            <div class="hl-company-description">
+              Himalayan Leisure is a boutique travel company specializing in
+              adventure and cultural tours across the Himalayan region. Known
+              for its personalized services, expert guides, and deep local
+              knowledge, the company offers trekking, mountaineering, and
+              sightseeing experiences in Nepal, Bhutan, Tibet, and India.
+              Himalayan Leisure focuses on providing safe and memorable
+              journeys.
+            </div>
+
+            <div class="hl-social-icons">
+              <a href="#" class="hl-social-icon"
+                ><i class="fa-brands fa-facebook"></i
+              ></a>
+              <a href="#" class="hl-social-icon"
+                ><i class="fa-brands fa-twitter"></i
+              ></a>
+              <a href="#" class="hl-social-icon"
+                ><i class="fa-brands fa-youtube"></i
+              ></a>
+              <a href="#" class="hl-social-icon"
+                ><i class="fa-brands fa-instagram"></i
+              ></a>
+              <a href="#" class="hl-social-icon"
+                ><i class="fa-solid fa-g"></i
+              ></a>
+            </div>
+          </div>
+
+          <div class="hl-footer-links">
+            <div class="hl-link-group">
+              <h3 class="hl-link-header">DESTINATIONS</h3>
+              <ul class="hl-link-list">
+                <li class="hl-link-item">
+                  <a href="#" class="hl-link">Nepal</a>
+                </li>
+                <li class="hl-link-item">
+                  <a href="#" class="hl-link">Tibet</a>
+                </li>
+                <li class="hl-link-item">
+                  <a href="#" class="hl-link">Bhutan</a>
+                </li>
+                <li class="hl-link-item">
+                  <a href="#" class="hl-link">Multi Country</a>
+                </li>
+              </ul>
+
+              <div class="hl-subscribe-form">
+                <div class="hl-form-container">
+                  <input
+                    type="email"
+                    placeholder="Enter your email address........"
+                    class="hl-email-input"
+                  />
+                  <button class="hl-subscribe-button">Subscribe</button>
+                </div>
+                <div class="hl-privacy-text">
+                  By subscribing, you agree with our
+                  <a href="#" class="hl-privacy-link">privacy policy</a>
+                </div>
+              </div>
+            </div>
+
+            <div class="hl-link-group">
+              <h3 class="hl-link-header">ACTIVITIES</h3>
+              <ul class="hl-link-list">
+                <li class="hl-link-item">
+                  <a href="#" class="hl-link">Trekking</a>
+                </li>
+                <li class="hl-link-item">
+                  <a href="#" class="hl-link hl-active-link">Climbing</a>
+                </li>
+                <li class="hl-link-item">
+                  <a href="#" class="hl-link">Mountaineering</a>
+                </li>
+                <li class="hl-link-item">
+                  <a href="#" class="hl-link">Sightseeing</a>
+                </li>
+                <li class="hl-link-item">
+                  <a href="#" class="hl-link">Rafting</a>
+                </li>
+                <li class="hl-link-item">
+                  <a href="#" class="hl-link">Jungle Safari</a>
+                </li>
+                <li class="hl-link-item">
+                  <a href="#" class="hl-link">Heli Tours</a>
+                </li>
+                <li class="hl-link-item">
+                  <a href="#" class="hl-link">Day Tours</a>
+                </li>
+              </ul>
+            </div>
+
+            <div class="hl-link-group">
+              <h3 class="hl-link-header">CONTACT US</h3>
+              <ul class="hl-contact-list">
+                <li class="hl-contact-item">
+                  <span class="hl-contact-icon">📞</span>
+                  <span>+977 98510 99 000</span>
+                </li>
+                <li class="hl-contact-item">
+                  <span class="hl-contact-icon">✉️</span>
+                  <span>info@himalayanleisure.com</span>
+                </li>
+                <li class="hl-contact-item">
+                  <span class="hl-contact-icon">📍</span>
+                  <span>Thamel, Bhagwati Bahal<br />Kathmandu, Nepal</span>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+
+        <div class="hl-content-area">
+          This area is reserved for contents to be published in the future. It
+          may include various messages or contents.
+        </div>
+
+        <div class="hl-footer-bottom">
+          <div class="hl-copyright">
+            © Copyright 2024, The Website Company, Inc.<br />
+            Prohibited from copying and reproducing whole or part of the website
+            without our written agreement.
+          </div>
+
+          <div class="hl-security-payment">
+            <div class="hl-security-text">Secured By:</div>
+            <img
+              src="https://faq.storage.infomaniak.com/5dd6a5abb91022.11883669.png"
+              alt="Sectigo"
+              class="hl-security-logo"
+            />
+
+            <div class="hl-payment-methods">
+              <img
+                src="data:image/png;base64,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"
+                alt="Visa"
+                class="hl-payment-icon"
+              />
+              <img
+                src="data:image/png;base64,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"
+                alt="Amex"
+                class="hl-payment-icon"
+              />
+              <img
+                src="data:image/png;base64,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"
+                alt="PayPal"
+                class="hl-payment-icon"
+              />
+              <img
+                src="data:image/png;base64,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"
+                alt="Mastercard"
+                class="hl-payment-icon"
+              />
+              <img
+                src="data:image/png;base64,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"
+                alt="Apple Pay"
+                class="hl-payment-icon"
+              />
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script>
+      document.addEventListener("DOMContentLoaded", function () {
+        const slideContainer = document.querySelector(
+          ".awards-slide-container"
+        );
+        const prevBtn = document.querySelector(".awards-prev-btn");
+        const nextBtn = document.querySelector(".awards-next-btn");
+        const slideWidth =
+          document.querySelector(".awards-item").offsetWidth + 20; // width + gap
+
+        prevBtn.addEventListener("click", function () {
+          slideContainer.scrollBy({
+            left: -slideWidth,
+            behavior: "smooth",
+          });
+        });
+
+        nextBtn.addEventListener("click", function () {
+          slideContainer.scrollBy({
+            left: slideWidth,
+            behavior: "smooth",
+          });
+        });
+      });
+    </script>
+
+    <script>
+      document
+        .getElementById("toggleMenu")
+        .addEventListener("click", function () {
+          let offcanvas = new bootstrap.Offcanvas(
+            document.getElementById("offcanvasNavbar")
+          );
+          offcanvas.toggle();
+        });
+    </script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+  </body>
+</html>
